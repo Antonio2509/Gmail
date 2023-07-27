@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1CF320B2A719F9F001AEA86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF320A2A719F9F001AEA86 /* AppDelegate.swift */; };
+		F1CF320D2A719F9F001AEA86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF320C2A719F9F001AEA86 /* SceneDelegate.swift */; };
+		F1CF320F2A719F9F001AEA86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF320E2A719F9F001AEA86 /* ViewController.swift */; };
+		F1CF32122A719F9F001AEA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CF32102A719F9F001AEA86 /* Main.storyboard */; };
+		F1CF32142A719FA1001AEA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CF32132A719FA1001AEA86 /* Assets.xcassets */; };
+		F1CF32172A719FA1001AEA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CF32152A719FA1001AEA86 /* LaunchScreen.storyboard */; };
+		F1CF32202A71B0F4001AEA86 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF321E2A71B0F4001AEA86 /* TableViewCell.swift */; };
+		F1CF32212A71B0F4001AEA86 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CF321F2A71B0F4001AEA86 /* TableViewCell.xib */; };
+		F1CF32232A71D063001AEA86 /* Dummy.json in Resources */ = {isa = PBXBuildFile; fileRef = F1CF32222A71D063001AEA86 /* Dummy.json */; };
+		F1CF32272A71D0A7001AEA86 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF32262A71D0A7001AEA86 /* Model.swift */; };
+		F1CF32292A71D36C001AEA86 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF32282A71D36C001AEA86 /* Data.swift */; };
+		F1CF322B2A71D694001AEA86 /* estructura.txt in Resources */ = {isa = PBXBuildFile; fileRef = F1CF322A2A71D694001AEA86 /* estructura.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1CF32072A719F9F001AEA86 /* Gmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CF320A2A719F9F001AEA86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1CF320C2A719F9F001AEA86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1CF320E2A719F9F001AEA86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1CF32112A719F9F001AEA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1CF32132A719FA1001AEA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1CF32162A719FA1001AEA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1CF32182A719FA1001AEA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CF321E2A71B0F4001AEA86 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F1CF321F2A71B0F4001AEA86 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		F1CF32222A71D063001AEA86 /* Dummy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dummy.json; sourceTree = "<group>"; };
+		F1CF32262A71D0A7001AEA86 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F1CF32282A71D36C001AEA86 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F1CF322A2A71D694001AEA86 /* estructura.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = estructura.txt; path = ../../estructura.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1CF32042A719F9F001AEA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1CF31FE2A719F9F001AEA86 = {
+			isa = PBXGroup;
+			children = (
+				F1CF32092A719F9F001AEA86 /* Gmail */,
+				F1CF32082A719F9F001AEA86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1CF32082A719F9F001AEA86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF32072A719F9F001AEA86 /* Gmail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1CF32092A719F9F001AEA86 /* Gmail */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF320A2A719F9F001AEA86 /* AppDelegate.swift */,
+				F1CF320C2A719F9F001AEA86 /* SceneDelegate.swift */,
+				F1CF322F2A72F0EC001AEA86 /* Model */,
+				F1CF32302A72F124001AEA86 /* View */,
+				F1CF322E2A72F0CC001AEA86 /* Controller */,
+				F1CF32132A719FA1001AEA86 /* Assets.xcassets */,
+				F1CF32152A719FA1001AEA86 /* LaunchScreen.storyboard */,
+				F1CF32182A719FA1001AEA86 /* Info.plist */,
+				F1CF322A2A71D694001AEA86 /* estructura.txt */,
+			);
+			path = Gmail;
+			sourceTree = "<group>";
+		};
+		F1CF322E2A72F0CC001AEA86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF320E2A719F9F001AEA86 /* ViewController.swift */,
+				F1CF321E2A71B0F4001AEA86 /* TableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F1CF322F2A72F0EC001AEA86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF32282A71D36C001AEA86 /* Data.swift */,
+				F1CF32262A71D0A7001AEA86 /* Model.swift */,
+				F1CF32222A71D063001AEA86 /* Dummy.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1CF32302A72F124001AEA86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF32102A719F9F001AEA86 /* Main.storyboard */,
+				F1CF321F2A71B0F4001AEA86 /* TableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1CF32062A719F9F001AEA86 /* Gmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CF321B2A719FA1001AEA86 /* Build configuration list for PBXNativeTarget "Gmail" */;
+			buildPhases = (
+				F1CF32032A719F9F001AEA86 /* Sources */,
+				F1CF32042A719F9F001AEA86 /* Frameworks */,
+				F1CF32052A719F9F001AEA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gmail;
+			productName = Gmail;
+			productReference = F1CF32072A719F9F001AEA86 /* Gmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1CF31FF2A719F9F001AEA86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F1CF32062A719F9F001AEA86 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F1CF32022A719F9F001AEA86 /* Build configuration list for PBXProject "Gmail" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1CF31FE2A719F9F001AEA86;
+			productRefGroup = F1CF32082A719F9F001AEA86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1CF32062A719F9F001AEA86 /* Gmail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1CF32052A719F9F001AEA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CF322B2A71D694001AEA86 /* estructura.txt in Resources */,
+				F1CF32232A71D063001AEA86 /* Dummy.json in Resources */,
+				F1CF32172A719FA1001AEA86 /* LaunchScreen.storyboard in Resources */,
+				F1CF32212A71B0F4001AEA86 /* TableViewCell.xib in Resources */,
+				F1CF32142A719FA1001AEA86 /* Assets.xcassets in Resources */,
+				F1CF32122A719F9F001AEA86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1CF32032A719F9F001AEA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CF32272A71D0A7001AEA86 /* Model.swift in Sources */,
+				F1CF32292A71D36C001AEA86 /* Data.swift in Sources */,
+				F1CF320F2A719F9F001AEA86 /* ViewController.swift in Sources */,
+				F1CF32202A71B0F4001AEA86 /* TableViewCell.swift in Sources */,
+				F1CF320B2A719F9F001AEA86 /* AppDelegate.swift in Sources */,
+				F1CF320D2A719F9F001AEA86 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1CF32102A719F9F001AEA86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CF32112A719F9F001AEA86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1CF32152A719FA1001AEA86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CF32162A719FA1001AEA86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1CF32192A719FA1001AEA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1CF321A2A719FA1001AEA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1CF321C2A719FA1001AEA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DCNZVPH435;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gmail/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EsmeraldaRuiz.Gmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1CF321D2A719FA1001AEA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DCNZVPH435;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gmail/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EsmeraldaRuiz.Gmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1CF32022A719F9F001AEA86 /* Build configuration list for PBXProject "Gmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CF32192A719FA1001AEA86 /* Debug */,
+				F1CF321A2A719FA1001AEA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CF321B2A719FA1001AEA86 /* Build configuration list for PBXNativeTarget "Gmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CF321C2A719FA1001AEA86 /* Debug */,
+				F1CF321D2A719FA1001AEA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1CF31FF2A719F9F001AEA86 /* Project object */;
+}

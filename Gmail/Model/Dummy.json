@@ -1,0 +1,77 @@
+{
+    "mails":
+    [
+        {
+            "emisor": "Jazmin Ruiz",
+            "correoEmisor": "jazminRuiz@gmail.com",
+            "asunto": "prueba",
+            "mensaje": "lorem",
+            "hora": "10:00 a.m",
+            "leido": true,
+            "destacado": true,
+            "spam": false
+        },
+        {
+            "emisor": "Norma Herrera",
+            "correoEmisor": "normaH@gmail.com",
+            "asunto": "Teresa primer parcial",
+            "mensaje": "Hola mundo",
+            "hora": "10:10 a.m",
+            "leido": true,
+            "destacado": false,
+            "spam": true
+        },
+        {
+            "emisor": "Alan Rojas",
+            "correoEmisor": "AlanR@gmail.com",
+            "asunto": "Teresa primer parcial",
+            "mensaje": "Hola mundo",
+            "hora": "10:15 a.m",
+            "leido": true,
+            "destacado": false,
+            "spam": false
+        },
+        {
+            "emisor": "Gemma Mendoza",
+            "correoEmisor": "GemmaMendo@gmail.com",
+            "asunto": "Teresa primer parcial",
+            "mensaje": "Hola mundo",
+            "hora": "10:20 a.m",
+            "leido": true,
+            "destacado": true,
+            "spam": true
+        },
+        {
+            "emisor": "Eliseo Perez",
+            "correoEmisor": "EliseoP@gmail.com",
+            "asunto": "Teresa primer parcial",
+            "mensaje": "Hola mundo",
+            "hora": "10:05 a.m",
+            "leido": true,
+            "destacado": true,
+            "spam": false
+        },
+        {
+            "emisor": "Brian Perez",
+            "correoEmisor": "BrianPer@gmail.com",
+            "asunto": "Teresa primer parcial",
+            "mensaje": "Hola mundo",
+            "hora": "10:00a.m",
+            "leido": true,
+            "destacado": false,
+            "spam": true
+        },
+        {
+            "emisor": "Brian Gonzales",
+            "correoEmisor": "BrianGon@gmail.com",
+            "asunto": "Teresa primer parcial",
+            "mensaje": "Hola mundo",
+            "hora": "10:00a.m",
+            "leido": true,
+            "destacado": false,
+            "spam": true
+        }
+    ]
+    
+    
+}
