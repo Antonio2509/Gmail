@@ -15,18 +15,15 @@ class ViewController: UIViewController {
             if let url = Bundle.main.url(forResource: "Dummy", withExtension: "json") {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
-
                 let jsonData = try decoder.decode(Welcome.self, from: data)
-                tableData = jsonData.mails
                 
+                tableData = jsonData.mails
             }
         } catch {
             print("error: \(error)")
         }
     }
     
-
-
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,7 +32,6 @@ class ViewController: UIViewController {
        tableView.delegate = self
        readLocalJSONFile()
        searchBar.delegate = self
-        
     }
 }
 
@@ -49,14 +45,11 @@ extension ViewController: UITableViewDataSource{
     }
    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        
+
         if let cell = tableView.dequeueReusableCell(withIdentifier: "mycustomcell", for: indexPath) as? TableViewCell,
            let meil = tableData?[indexPath.row]{
-           
-           cell.setCellData(meil)
-          
-            return cell
+                cell.setCellData(meil)
+                return cell
         }
        return UITableViewCell()
     }
@@ -73,11 +66,6 @@ extension ViewController: UITableViewDelegate {
 
 extension ViewController: UISearchBarDelegate{
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        
-        
     }
-    
-    
 }
     
-
